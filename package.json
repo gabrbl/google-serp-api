@@ -1,0 +1,35 @@
+{
+  "name": "google-serp-api",
+  "version": "1.0.0",
+  "description": "API REST que clona la funcionalidad de SerpApi para hacer scraping de Google Search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "serp",
+    "api",
+    "scraping",
+    "search",
+    "puppeteer",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer": "^24.17.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
