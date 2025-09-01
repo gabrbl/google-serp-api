@@ -18,7 +18,7 @@ API REST minimalista para obtener resultados de Google Search en JSON, inspirada
 ## Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/google-serp-api.git
+git clone https://github.com/gabrbl/google-serp-api
 cd google-serp-api
 npm install
 cp .env.example .env
